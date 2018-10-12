@@ -355,7 +355,7 @@ class Zombie {
  */
 class FastZombie extends Zombie {
   constructor(health, strength, speed) {
-    super()
+    super(health, strength, speed)
     this.health = health;
     this.strength = strength;
     this.speed = speed;
@@ -379,7 +379,7 @@ class FastZombie extends Zombie {
  */
 class StrongZombie extends Zombie {
 constructor(health,strength,speed){
-  super()
+  super(health, strength, speed)
   this.health = health;
   this.strength = strength;
   this.speed = speed;
@@ -405,7 +405,7 @@ constructor(health,strength,speed){
  */
 class RangedZombie extends Zombie{
   constructor(health, strength, speed){
-    super();
+    super(health, strength, speed);
     this.health = health;
     this.strength = strength;
     this.speed = speed;
@@ -435,7 +435,7 @@ class RangedZombie extends Zombie{
  */
 class ExplodingZombie extends Zombie{
   constructor(health, strength, speed){
-    super()
+    super(heatlh, strength, speed)
     this.health = health;
     this.strength = strength;
     this.speed = speed;
